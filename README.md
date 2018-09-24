@@ -72,7 +72,7 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos cifras:
     respuesta:[{
 	numero1: 5,
 	numero2: 6,
-	suma: 11 <-- este es el resultado de la función que se ejecutó en el servidor.
+	suma: 11 //<-- este es el resultado de la función que se ejecutó en el servidor.
     }]
 ````
    
