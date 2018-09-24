@@ -106,6 +106,7 @@ nótese el uso de etiquetas, **div** es el identificador de la etiqueta que defi
 
 
 **CSS**
+
 Hoja de estilos, tampoco es un lenguaje de programación, es un lenguaje de estilos, usado para definir estilos específicos a las etiquetas HTML usando la etiqueta anterior digamos que queremos cambiar el color de fondo.
 
 ```html
@@ -124,7 +125,8 @@ div {
 
 
 
-### JAVASCRIPT
+**JAVASCRIPT**
+
 Por última vez, no confundir con Java ya que son dos lenguajes de programación distintos, la similitud del nombre fue gracias a los de marketing ya que cuando se lanzó JavaScript, Java era el lenguaje más popular del momento.
 JavaScript si es un lenguaje de programación, con el cual, podemos declarar variables, crear condiciones y ciclos, declarar funciones que ejecuten determinada tarea.
 JavaScript es un lenguaje que se ejecuta en el cliente ósea en tu navegador, con JavaScript podemos manipular casi cualquier cosa en una página.
