@@ -142,34 +142,64 @@ a diferencia de la primera vez que se declaro, ahora tiene un atributo que se ll
 Primero necesitamos agarrar esa etiqueta con JavaScript
 
 ```javascript
-//código JavaScript: esto es un comentario en javascript y no será ejecutado se usa para hacer anotaciones en el código
+// javascript
 
  var cosaUno = document.getElementById('cosaUno');
 ```
 
-awd
+la palabra reservada *var* se usa para declarar variables, todo lo que paso en la instrucción anterior fue que guardamos esa etiqueta HTML en una variable, lista para ser manipulada. *document.getElementById()* es un método de JavaScript para seleccionar etiquetas HTML basado en un id.
+
+después procedemos a cambiar el valor que esa etiqueta tiene, que al momento está vacía.
+pero primero necesitamos que el usuario de clic sobre la página.
+
+¿cómo podemos saber cuándo el usuario da clic sobre la página?.
+
+Necesitamos esperar un evento, y para ello antes necesitamos una función que siempre este pendiente de cuando se da clic.
+
+En el ejercicio dice que cuando el usuario de clic sobre la página, en cualquier parte.
+
+Entonces necesitamos agarrar la etiqueta que define la página y esa etiqueta se llama HTML, <html>{aqui va todo el contenido de la página}</html>
+
+```html
+html
+
+<html id="pagina">
+   <div id="cosaUno"><div>
+</html>
+```
+
+```javascript
+//javascript
+
+var pagina = document.getElementById('pagina');
+```
+
+ya que la tenemos en memoria, necesitamos agregar un EventListener que rastrea cualquier evento que definamos, en este caso queremos que rastree cuando el usuario da clic sobre la página.
+
+```javascript
+//javascript
+
+pagina.addEventListener('click', function(){
+	cosaUno.innerHTML = 'Hola';
+});
+```
+
+entonces cuando se dé clic se tendría lo siguiente:
+
+```html
+html
+
+<html id="pagina">
+	<div id="cosaUno">Hola<div>
+</html>
+```
+
+Ahora se debe tener una idea más clara de lo que es una página web, HTML son los huesos con los que se construye, CSS es para darle forma a esa estructura, y JavaScript es para darle funcionalidad a lo que queramos y como lo queramos.
 
 
 
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
+### FRAMEWORKS Y LIBRERIAS DE JAVASCRIPT
+Los frameworks  y/o librerías de JavaScript son funciones(echas con JavaScript) gigantes que adentro de ellas vienen muchas funciones pequeñas que sirven para un propósito, en el caso de web mapping, los frameworks tales como Leaflet y OpenLayers son para la manipulación y renderización de mapas y capas en una página web sin tener que partir de cero.
 
 
 
