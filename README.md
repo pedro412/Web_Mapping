@@ -109,10 +109,12 @@ nótese el uso de etiquetas, **div** es el identificador de la etiqueta que defi
 Hoja de estilos, tampoco es un lenguaje de programación, es un lenguaje de estilos, usado para definir estilos específicos a las etiquetas HTML usando la etiqueta anterior digamos que queremos cambiar el color de fondo.
 
 ```html
+html
 <div>aquí va el contenido</div>
 ```
 
 ```css
+css
 div {
  background-color: blue;
 }
