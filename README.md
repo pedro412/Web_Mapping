@@ -8,6 +8,7 @@ Se dividira en dos bloques FRONTEND y BACKEND
 
 
 BACKEND(servidor)
+
 	- Servidor: Apache o IIS.
 	- Instalación de base de datos POSTGRESQL con extensión POSTGIS.
 	- Servidor de mapas: GeoServer.
@@ -15,6 +16,7 @@ BACKEND(servidor)
 	  Estos apis se pueden hacer con PHP o .NET (1).
 
 FRONTEND(cliente)
+
 	- QGIS para la interaccion de usuario con la base de datos.
 	- Una apliacion web donde se consumiran los servicios de GeoServer para poder visualizar las capas.
 	  Esta apliacion debe utilizar algun framework de mapas tal como OpenLayers, Leaflet o Arcgis API.
