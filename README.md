@@ -26,11 +26,32 @@ FRONTEND(cliente)
 -----------------------------------------------------------------------------------------------------------------
 
 
-## SERVIDOR
+### SERVIDOR
 
 En la empresa se cuenta con servidores IIS de Windows los cuales son muy ventajosos al momento de montar e instalar
 las aplicaciones, o base de datos, ya que todo se hace mediante interfaz gráfica.
 
+
+Otra opción sería rentar algún VPS o Virtual Private Server, que generalmente usan servidores Apache,
+estos vienen con la desventaja de que hay que configurar todo manualmente, a diferencia del IIS,
+estos servidores generalmente vienen montados en un sistema operativo Linux, y todo lo que se requiera instalar
+debe ser mediante uso de línea de comando, cuando no se tiene un conocimiento avanzado, esto puede demorar mucho tiempo.
+
+
+
+
+### BASE DE DATOS
+Aquí no hay mucho tema, todas las interacciones no se hacen directamente, siempre se hacen a través de QGIS o el servidor de mapas.
+
+
+
+### SERVIDOR DE MAPAS
+El servidor de mapas es una aplicación que se encarga de hacer muchas cosas por nosotros, si este no existiera se tendría que
+hacer una aplicación que tuviera todas la funciones que llegásemos a necesitar, lo cual es mucho desarrollo y tiempo.
+Algunas de esas cosas que este servidor puede hacer por nosotros es: publicar un servicio web de las capas, listo para 
+ser consumido desde cualquier cliente que acepte HTTP, ya sea una aplicación de teléfono o una página web.
+También si se quisiera optar por otro tipo de desarrollo digamos usar Python, este servidor nos puede entregar un JSON que 
+prácticamente puede ser utilizado y manipulado desde cualquier lenguaje de programación.
 
 
 
