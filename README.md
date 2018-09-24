@@ -98,8 +98,27 @@ Se entiende por cliente cualquier dispositivo capaz de renderizar la vista al us
 NO es un lenguaje de programación, es un lenguaje de marcado ósea que para definir algo hay que usar etiquetas ejemplo:
 
 ```html
-<div>aqui va el contenido</div>
+<div>aquí va el contenido</div>
 ```
+
+nótese el uso de etiquetas, **div** es el identificador de la etiqueta que definimos, hay varios tipo de etiquetas con sus respectivos nombres *div* es utilizado con frecuencia, las etiquetas siempre abren y se tienen que cerrar, HTML es muy parecido a XML solo que XML es más difícil de leer para los humanos, ya que XML fue creado para comunicación entre software, y HTML fue creado para que los humanos lo puedan leer y entender muy fácil.
+
+
+
+**CSS**
+Hoja de estilos, tampoco es un lenguaje de programación, es un lenguaje de estilos, usado para definir estilos específicos a las etiquetas HTML usando la etiqueta anterior digamos que queremos cambiar el color de fondo.
+
+```html
+<div>aquí va el contenido</div>
+```
+
+```css
+div {
+ background-color: blue;
+}
+```
+
+
 
 
 
