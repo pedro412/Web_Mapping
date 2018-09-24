@@ -20,6 +20,16 @@ FRONTEND(cliente)
 	  Esta aplicación debe utilizar algún framework de mapas tal como OpenLayers, Leaflet o Arcgis API.
 	  Debe tener una restricción desde el BACKEND para que no cualquiera pueda visualizar el contenido.(1)
 	- Utilizar algún framework o librería de JavaScript para crear aplicaciones robustas: ReactJs o Angular.
+	
+	
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+## SERVIDOR
+
+En la empresa se cuenta con servidores IIS de Windows los cuales son muy ventajosos al momento de montar e instalar
+las aplicaciones, o base de datos, ya que todo se hace mediante interfaz gráfica.
 
 
 
