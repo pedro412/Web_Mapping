@@ -160,7 +160,7 @@ Necesitamos esperar un evento, y para ello antes necesitamos una función que si
 
 En el ejercicio dice que cuando el usuario de clic sobre la página, en cualquier parte.
 
-Entonces necesitamos agarrar la etiqueta que define la página y esa etiqueta se llama HTML, <html>{aqui va todo el contenido de la página}</html>
+Entonces necesitamos agarrar la etiqueta que define la página y esa etiqueta se llama HTML,
 
 ```html
 html
