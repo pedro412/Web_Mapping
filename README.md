@@ -85,6 +85,17 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos cifras:
  A muy grandes rasgos eso es un servicios web.
  
  Ahora se puede decir que GeoServer entre muchas cosas es también un despachador de servicios web orientado a GIS.
+ 
+ 
+ 
+### CLIENTE
+Se entiende por cliente cualquier dispositivo capaz de renderizar la vista al usuario, ya sea un dispositivo móvil, una laptop o desktop, un navegador web, es muy común que navegador web se confunda con motor de búsqueda, navegador web es la aplicación como CHROME o SAFARI, motor de búsqueda es Google o Bing. En el caso de web mapping el cliente será una página web, que consiste en 3 cosas fundamentales: HTML, CSS y JavaScript(no es lo mismo que Java).
+
+
+
+**HTML**
+NO es un lenguaje de programacion, es un lenguaje de marcado osea que para definir algo hay que usar etiquetas ejemplo:
+
 
 
    
