@@ -74,7 +74,7 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos cifras:
 	numero2: 6,
 	suma: 11 //<-- este es el resultado de la función que se ejecutó en el servidor.
     }]
-````
+```
 
  - **http** es el protocolo por cual se realizara la consulta.
 
@@ -110,15 +110,49 @@ Hoja de estilos, tampoco es un lenguaje de programación, es un lenguaje de esti
 
 ```html
 html
+
 <div>aquí va el contenido</div>
 ```
 
 ```css
 css
+
 div {
  background-color: blue;
 }
 ```
+
+
+
+### JAVASCRIPT
+Por última vez, no confundir con Java ya que son dos lenguajes de programación distintos, la similitud del nombre fue gracias a los de marketing ya que cuando se lanzó JavaScript, Java era el lenguaje más popular del momento.
+JavaScript si es un lenguaje de programación, con el cual, podemos declarar variables, crear condiciones y ciclos, declarar funciones que ejecuten determinada tarea.
+JavaScript es un lenguaje que se ejecuta en el cliente ósea en tu navegador, con JavaScript podemos manipular casi cualquier cosa en una página.
+
+Ejemplo, se requiere hacer que cuando el usuario de clic sobre la página el contenido de la etiqueta que definimos anteriormente sea 'Hola';
+
+```html
+html
+
+<div id="cosaUno"></div>
+```
+
+a diferencia de la primera vez que se declaro, ahora tiene un atributo que se llama "id" y se le dio un valor = cosaUno, y adentro de las etiquetas no hay nada está vacio.
+
+Primero necesitamos agarrar esa etiqueta con JavaScript
+
+```javascript
+//código JavaScript: esto es un comentario en javascript y no será ejecutado se usa para hacer anotaciones en el código
+
+ var cosaUno = document.getElementById('cosaUno');
+```
+
+awd
+
+
+
+
+
 
 
 
