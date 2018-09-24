@@ -76,11 +76,11 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos cifras:
     }]
 ````
 
-*http* es el protocolo por cual se realizara la consulta.
+**http** es el protocolo por cual se realizara la consulta.
 
-*www.miDominio.com* es el ip o dominio(DNS) que se utiliza.
+**www.miDominio.com** es el ip o dominio(DNS) que se utiliza.
 
-*/sumarNumeros* es la función que se ejecutara y a esta se le pasan los parámetros después del signo ? numero1=5&numero2=6
+**/sumarNumeros** es la función que se ejecutara y a esta se le pasan los parámetros después del signo ? numero1=5&numero2=6
 
    
 
