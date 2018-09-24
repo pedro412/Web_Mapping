@@ -1,8 +1,32 @@
-## Welcome to GitHub Pages
+## ARQUITECTURA DE PROYECTO WEB MAPPING
 
-You can use the [editor on GitHub](https://github.com/pedro412/Web_Mapping/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Estos son los requerimientos minimos necesarios para montar una infrastructura de web mapping.
+	
+Se dividira en dos bloques FRONTEND y BACKEND
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+
+
+BACKEND(servidor)
+	- Servidor: Apache o IIS.
+	- Instalación de base de datos POSTGRESQL con extensión POSTGIS.
+	- Servidor de mapas: GeoServer.
+	- Restful API's para autenticación y autorización(opcional).
+	  Estos apis se pueden hacer con PHP o .NET (1).
+
+FRONTEND(cliente)
+	- QGIS para la interaccion de usuario con la base de datos.
+	- Una apliacion web donde se consumiran los servicios de GeoServer para poder visualizar las capas.
+	  Esta apliacion debe utilizar algun framework de mapas tal como OpenLayers, Leaflet o Arcgis API.
+	  Debe tener una restriccion desde el BACKEND para que no cualquiera pueda visualizar el contenido.(1)
+	- Utilizar algun framework o libreria de JavaScript para crear aplicaciones robustas: ReactJs o Angular.
+
+
+
+
+
+
+
 
 ### Markdown
 
