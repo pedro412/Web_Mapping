@@ -1,10 +1,8 @@
 ## ARQUITECTURA DE PROYECTO WEB MAPPING
 
-Estos son los requerimientos minimos necesarios para montar una infrastructura de web mapping.
+Estos son los requerimientos mínimos necesarios para montar una infraestructura de web mapping.
 	
-Se dividira en dos bloques FRONTEND y BACKEND
-
-
+Se dividirá en dos bloques FRONTEND y BACKEND
 
 
 BACKEND(servidor)
@@ -17,11 +15,11 @@ BACKEND(servidor)
 
 FRONTEND(cliente)
 
-	- QGIS para la interaccion de usuario con la base de datos.
-	- Una apliacion web donde se consumiran los servicios de GeoServer para poder visualizar las capas.
-	  Esta apliacion debe utilizar algun framework de mapas tal como OpenLayers, Leaflet o Arcgis API.
-	  Debe tener una restriccion desde el BACKEND para que no cualquiera pueda visualizar el contenido.(1)
-	- Utilizar algun framework o libreria de JavaScript para crear aplicaciones robustas: ReactJs o Angular.
+	- QGIS para la interacción de usuario con la base de datos.
+	- Una aplicación web donde se consumirán los servicios de GeoServer para poder visualizar las capas.
+	  Esta aplicación debe utilizar algún framework de mapas tal como OpenLayers, Leaflet o Arcgis API.
+	  Debe tener una restricción desde el BACKEND para que no cualquiera pueda visualizar el contenido.(1)
+	- Utilizar algún framework o librería de JavaScript para crear aplicaciones robustas: ReactJs o Angular.
 
 
 
