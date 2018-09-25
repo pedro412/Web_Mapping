@@ -219,13 +219,13 @@ Ejemplo del código HTML de la pagina más simple posible:
 ```html
 <html>
 
-<head>
-<title>Título de la página</title>
-</head>
+  <head>
+    <title>Título de la página</title>
+  </head>
 
-<body>
-Este es el cuerpo de la página, aquí iría todo el contenido que se desea mostrar.
-</body>
+  <body>
+    Este es el cuerpo de la página, aquí iría todo el contenido que se desea mostrar.
+  </body>
 
 </html>
 
