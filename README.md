@@ -107,7 +107,8 @@ nótese el uso de etiquetas, **div** es el identificador de la etiqueta que defi
 
 **CSS**
 
-Hoja de estilos, tampoco es un lenguaje de programación, es un lenguaje de estilos, usado para definir estilos específicos a las etiquetas HTML usando la etiqueta anterior digamos que queremos cambiar el color de fondo.
+Hoja de estilos, tampoco es un lenguaje de programación, es un lenguaje de estilos, usado para definir estilos específicos a las etiquetas HTML.
+Usando la etiqueta anterior digamos que queremos cambiar el color de fondo.
 
 ```html
 html
