@@ -60,7 +60,7 @@ Para entender esto se debe primero entender que son los servicios web, los servi
 Estas funciones realizan tareas específicas, tal como sumar dos números hasta devolver todos los registros de una base de datos.
 Se les llama servicios web porque en teoría todo lo que tienes que hacer para invocarlos es usar una URL que se asignó a dicha función o servicio.
 
-Por ejemplo: se requiere consumir un servicio web para sumar dos cifras:
+Por ejemplo: se requiere consumir un servicio web para sumar dos numeros:
 
     copias y pegas esto en tu navegador...
     
