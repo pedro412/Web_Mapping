@@ -208,4 +208,26 @@ Ejemplo: https://unpkg.com/leaflet@1.3.4/dist/leaflet.js
 Todo ese código es la ibrería de Leaflet ahí vienen todas las funciones que podemos utilizar.
 
 
+------------------------------------------------------------------------------------------------------
+
+
+### COSITAS
+
+Ejemplo del código HTML de la pagina más simple posible:
+
+
+```
+<html>
+
+<head>
+<title>Título de la página</title>
+</head>
+
+<body>
+Este es el cuerpo de la página, aquí iría todo el contenido que se desea mostrar.
+</body>
+
+</html>
+
+
 
