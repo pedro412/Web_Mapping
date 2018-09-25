@@ -211,7 +211,6 @@ Todo ese código es la ibrería de Leaflet ahí vienen todas las funciones que p
 
 ### ROLES DE TRABAJO
 
-
 **Desarrollador Front End**
 
 Se encarga principalmente de trabajar del lado del cliente, debe tener un nivel avanzado en HTML, CSS y JavaScript.
@@ -226,7 +225,6 @@ En el caso de web mapping el desarrollador front end debe ser proficiente en alg
 
 
 
-
 **Desarrollador Back End**
 
 Este es responsable de todas las tecnologías del lado del servidor tal como base de datos y aplicaciones creadas con PHP o C#(.NET).
@@ -238,7 +236,6 @@ La herramientas con las que trabajan dependerán del ambiente en el cual se les 
 También deben ser capaces de configurar cualquier herramienta que se requiera.
 
 En el caso de web mapping tendrá que instalar la base POSTGRESQL con su extensión POSTGIS, tendrá que hacer las respectivas configuraciones para enlazarlo con el servidor de mapas GeoServer, tendrá que configurar de igual forma el GeoServer y también se tendría que encargar de que los servicios de GeoServer salgan por un canal seguro y solo se les pueda servir a ciertos usuarios.
-
 
 
 
