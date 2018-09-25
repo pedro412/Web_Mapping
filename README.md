@@ -217,11 +217,11 @@ Se encarga principalmente de trabajar del lado del cliente, debe tener un nivel 
 Es muy común que siempre estén trabajando con frameworks y librerías de JS(JavaScript).
 También existen frameworks de CSS para hacer prototipos de diseño en tiempo reducido.
 
-Debe optimizar todo tipo de recurso que se entregue al usuario por ejemplo, una foto que pese 1MB es mucho para una página web, entonces se debe usar una herramienta como PhotoShop para reducir su peso a unos 100KB aproximadamente. 
+Debe optimizar todo tipo de recurso que se entregue al usuario por ejemplo, una foto que pese 1MB es mucho para una página web, entonces se debe usar una herramienta como PhotoShop para reducir su peso a unos 100KB aproximadamente por decir algo. 
 
 El UI/UX juega un rol importante para estos desarrolladores, no deben ser expertos pero si tener conocimientos intermedios.
 
-En el caso de web mapping el desarrollador front end debe ser proficiente en algún framework de JS como OpenLayers para poder crear aplicaciones complejas, para esto debe tener conocimientos sólidos en JS tal como para usar algún Transpilador como TypeScript o alemenos dominar un framework o librería como Angular o ReactJS.
+En el caso de web mapping el desarrollador front end debe ser proficiente en algún framework de JS como OpenLayers para poder crear aplicaciones complejas, para esto debe tener conocimientos sólidos en JS tal como para usar algún Transpilador como TypeScript o por lo menos dominar un framework o librería como Angular o ReactJS.
 
 
 
