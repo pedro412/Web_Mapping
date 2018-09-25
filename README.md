@@ -216,7 +216,7 @@ Todo ese código es la ibrería de Leaflet ahí vienen todas las funciones que p
 Ejemplo del código HTML de la pagina más simple posible:
 
 
-```
+```html
 <html>
 
 <head>
@@ -228,6 +228,4 @@ Este es el cuerpo de la página, aquí iría todo el contenido que se desea most
 </body>
 
 </html>
-
-
 
