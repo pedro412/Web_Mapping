@@ -55,7 +55,7 @@ prácticamente puede ser utilizado y manipulado desde cualquier lenguaje de prog
 
 
 
-### RESTFUL API'S
+### WEB MAP SERVICES
 Para entender esto se debe primero entender que son los servicios web, los servicios web son funciones creadas en algún lenguaje de programación que tenga capacidades de interactuar con una base de datos para hacer consultas a la misma, manipular archivos, en otras palabras en un lenguaje del lado del servidor, los lenguajes más comunes para web: PHP, NodeJS, Python, C#(.NET) y Java(no confundir Java con JavaScript ya que son dos cosas diferentes).
 Estas funciones realizan tareas específicas, tal como sumar dos números hasta devolver todos los registros de una base de datos.
 Se les llama servicios web porque en teoría todo lo que tienes que hacer para invocarlos es usar una URL que se asignó a dicha función o servicio.
