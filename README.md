@@ -240,8 +240,10 @@ En el caso de web mapping tendrá que instalar la base POSTGRESQL con su extensi
 
 
 **Especialista en SIG**
+
 Bueno aquí ustedes ya sabrán todo lo que implica, deben ser capaces de realizar consultas complejas en el lenguaje SQL para datos espaciales, tienen que tener conocimientos en un alto nivel de todo lo que es el web mapping.
 Supongo que deben saber interpretar los datos para determinar ciertas situaciones.
+
 Dominar algún software como QGIS o ArcMap?? y lo más importante para mí, hacer capas que realmente muestren algo valioso para el usuario o aquel que analizara que hacer con esa información.
 
 
