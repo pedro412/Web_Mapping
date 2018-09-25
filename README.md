@@ -193,7 +193,7 @@ entonces cuando se dé clic se tendría lo siguiente:
 html
 
 <html id="pagina">
-	<div id="cosaUno">Hola<div>
+   <div id="cosaUno">Hola<div>
 </html>
 ```
 
