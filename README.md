@@ -208,6 +208,16 @@ Ejemplo: https://unpkg.com/leaflet@1.3.4/dist/leaflet.js
 Todo ese código es la ibrería de Leaflet ahí vienen todas las funciones que podemos utilizar.
 
 
+
+### ROLES DE TRABAJO
+
+**Desarrollador Front End**
+Se encarga principalmente de trabajar del lado del cliente, debe tener un nivel avanzado en HTML, CSS y JavaScript.
+Es muy común que simpre esten trabajando con frameworks y librerías de JS(JavaScript).
+Tambien existen frameworks de CSS para hacer prototipos de diseño en tiempo reducido.
+Debe optimizar todo tipo de recurso que se entregue al usuario por ejemplo, una foto que pese 1MB es mucho para una pagina web, entonces se debe usar una herramienta como PhotoShop para reducir su peso a unos 100KB aproximadamente. 
+
+
 ------------------------------------------------------------------------------------------------------
 
 
@@ -233,5 +243,4 @@ Ejemplo del código HTML de la pagina más simple posible:
 Para ver esto es un navegador es tan fácil como, copiar el código, abrir Bloc de notas, pegarlo en un documento en blanco, guardarlo y poner un nombre como : ejemplo.html
 
 Al abrir este nuevo archivo con doble clic, se abrirá en tu navegador web por defecto.
-
 
