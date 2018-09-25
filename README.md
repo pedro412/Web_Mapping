@@ -221,7 +221,22 @@ Debe optimizar todo tipo de recurso que se entregue al usuario por ejemplo, una 
 
 El UI/UX juega un rol importante para estos desarrolladores, no deben ser expertos pero si tener conocimientos intermedios.
 
-En el caso de web mapping el desarrollador front end debe ser proficiente en algún framework de JS como OpenLayers para poder crear aplicaciones complejas, para esto debe tener conocimientos sólidos en JS tal como para usar algún Transpilador como TypeScript.
+En el caso de web mapping el desarrollador front end debe ser proficiente en algún framework de JS como OpenLayers para poder crear aplicaciones complejas, para esto debe tener conocimientos sólidos en JS tal como para usar algún Transpilador como TypeScript o alemenos dominar un framework o librería como Angular o ReactJS.
+
+
+
+**Desarrollador Back End**
+
+Este es responsable de todas las tecnologías del lado del servidor tal como base de datos y aplicaciones creadas con PHP o C#(.NET).
+Aquí el diseño no es prioridad, lo que es prioridad es la seguridad, siempre la deben tener muy presente.
+También deben escribir código de manera astuta para optimizar tiempos en respuesta, por ejemplo ellos crean los web services, pero los deben de hacer tal forma que te puedan entregar un registro de millones de una base de datos en tiempo record o al menos a eso le apuntan.
+
+La herramientas con las que trabajan dependerán del ambiente en el cual se les pida por ejemplo, aquí en la empresa se usa ambiente Windows por lo cual tienen que trabajar con las herramientas adecuadas: SQL server para base de datos, algún framework como .NET que usa el lenguaje C#.
+
+También deben ser capaces de configurar cualquier herramienta que se requiera.
+
+En el caso de web mapping tendrá que instalar la base POSTGRESQL con su extensión POSTGIS, tendrá que hacer las respectivas configuraciones para enlazarlo con el servidor de mapas GeoServer, tendrá que configurar de igual forma el GeoServer y también se tendría que encargar de que los servicios de GeoServer salgan por un canal seguro y solo se les pueda servir a ciertos usuarios.
+
 
 
 
