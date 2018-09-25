@@ -279,8 +279,8 @@ Al abrir este nuevo archivo con doble clic, se abrirá en tu navegador web por d
 
 ### ¿Y el XAMPP y el Tomcat? :'(
 
-El XAMPP solo era para montar un entorno de desarrollo en su computadora sin la necesidad de un servidor.
-Tomcat es un servidor de aplicaciones, en el montamos GeoServer para emular que está instalado en un servidor web, en la práctica todo eso se configura de manera diferente. En IIS se usa algo como Jetty que es como el Tomcat de IIS.
+El XAMPP solo era para montar un entorno de desarrollo Apache en su computadora sin la necesidad de un servidor.
+Tomcat es un servidor de aplicaciones basadas en Java, en el montamos GeoServer para emular que está instalado en un servidor web, en la práctica todo eso se configura de manera diferente.
 
 
 
