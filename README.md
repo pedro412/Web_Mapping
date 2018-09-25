@@ -201,7 +201,7 @@ Ahora se debe tener una idea más clara de lo que es una página web, HTML son l
 
 
 
-### FRAMEWORKS Y LIBRERIAS DE JAVASCRIPT
+### FRAMEWORKS Y LIBRERÍAS DE JAVASCRIPT
 Los frameworks  y/o librerías de JavaScript son funciones(echas con JavaScript) que adentro de ellas vienen muchas funciones pequeñas que sirven para un propósito, en el caso de web mapping, los frameworks tales como Leaflet y OpenLayers son para la manipulación y renderización de mapas y capas en una página web sin tener que partir de cero.
 
 Ejemplo: https://unpkg.com/leaflet@1.3.4/dist/leaflet.js
