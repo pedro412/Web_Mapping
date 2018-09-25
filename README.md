@@ -101,7 +101,7 @@ NO es un lenguaje de programación, es un lenguaje de marcado ósea que para def
 <div>aquí va el contenido</div>
 ```
 
-nótese el uso de etiquetas, **div** es el identificador de la etiqueta que definimos, hay varios tipo de etiquetas con sus respectivos nombres *div* es utilizado con frecuencia, las etiquetas siempre abren y se tienen que cerrar, HTML es muy parecido a XML solo que XML es más difícil de leer para los humanos, ya que XML fue creado para comunicación entre software, y HTML fue creado para que los humanos lo puedan leer y entender muy fácil.
+Nótese el uso de etiquetas, **div** es el identificador de la etiqueta que definimos, hay varios tipo de etiquetas con sus respectivos nombres *div* es utilizado con frecuencia, las etiquetas siempre abren y se tienen que cerrar, HTML es muy parecido a XML solo que XML es más difícil de leer para los humanos, ya que XML fue creado para comunicación entre software, y HTML fue creado para que los humanos lo puedan leer y entender muy fácil.
 
 
 
@@ -140,7 +140,7 @@ html
 <div id="cosaUno"></div>
 ```
 
-a diferencia de la primera vez que se declaro, ahora tiene un atributo que se llama "id" y se le dio un valor = cosaUno, y adentro de las etiquetas no hay nada está vacio.
+A diferencia de la primera vez que se declaro, ahora tiene un atributo que se llama "id" y se le dio un valor = cosaUno, y adentro de las etiquetas no hay nada está vacio.
 
 Primero necesitamos agarrar esa etiqueta con JavaScript
 
@@ -150,12 +150,12 @@ Primero necesitamos agarrar esa etiqueta con JavaScript
  var cosaUno = document.getElementById('cosaUno');
 ```
 
-la palabra reservada *var* se usa para declarar variables, todo lo que paso en la instrucción anterior fue que guardamos esa etiqueta HTML en una variable, lista para ser manipulada. *document.getElementById()* es un método de JavaScript para seleccionar etiquetas HTML basado en un id.
+La palabra reservada *var* se usa para declarar variables, todo lo que paso en la instrucción anterior fue que guardamos esa etiqueta HTML en una variable, lista para ser manipulada. *document.getElementById()* es un método de JavaScript para seleccionar etiquetas HTML basado en un id.
 
-después procedemos a cambiar el valor que esa etiqueta tiene, que al momento está vacía.
+Después procedemos a cambiar el valor que esa etiqueta tiene, que al momento está vacía.
 pero primero necesitamos que el usuario de clic sobre la página.
 
-¿cómo podemos saber cuándo el usuario da clic sobre la página?.
+¿Cómo podemos saber cuándo el usuario da clic sobre la página?.
 
 Necesitamos esperar un evento, y para ello antes necesitamos una función que siempre este pendiente de cuando se da clic.
 
@@ -177,7 +177,7 @@ html
 var pagina = document.getElementById('pagina');
 ```
 
-ya que la tenemos en memoria, necesitamos agregar un EventListener que rastrea cualquier evento que definamos, en este caso queremos que rastree cuando el usuario da clic sobre la página.
+Ya que la tenemos en memoria, necesitamos agregar un EventListener que rastrea cualquier evento que definamos, en este caso queremos que rastree cuando el usuario da clic sobre la página.
 
 ```javascript
 //javascript
@@ -187,7 +187,7 @@ pagina.addEventListener('click', function(){
 });
 ```
 
-entonces cuando se dé clic se tendría lo siguiente:
+Entonces cuando se dé clic se tendría lo siguiente:
 
 ```html
 html
