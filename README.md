@@ -229,3 +229,8 @@ Ejemplo del código HTML de la pagina más simple posible:
 
 </html>
 
+Para ver esto es un navegador es tan fácil como, copiar el código, abrir Bloc de notas, pegarlo en un documento en blanco, guardarlo y poner un nombre como : ejemplo.html
+
+Al abrir este nuevo archivo con doble clic, se abrirá en tu navegador web por defecto.
+
+
