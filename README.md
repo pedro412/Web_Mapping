@@ -10,15 +10,16 @@ BACKEND(servidor)
 	- Servidor web: Apache o IIS.
 	- Instalación de base de datos POSTGRESQL con extensión POSTGIS.
 	- Servidor de mapas: GeoServer.
-	- Restful API's para autenticación y autorización(opcional).
-	  Estos apis se pueden hacer con PHP o .NET (1).
+	- Restful API'S AKA Web Services para la autenticación y autorización(opcional). (1)
+	  Estos API'S se pueden hacer con PHP, Python(Django) o C#(.NET).
+	  También pueden servir para manipular desde el cliente alguna capa determinada.
 
 FRONTEND(cliente)
 
-	- QGIS para la interacción de usuario con la base de datos.
-	- Una aplicación web donde se consumirán los servicios de GeoServer para poder visualizar las capas.
+	- QGIS para crear, editar , visualizar, analizar y publicar información Geoespacial.
+	- Una aplicación web donde se consumirán los servicios de GeoServer para poder visualizar las capas(y crear un tipo de QGIS personalizado en la web).
 	  Esta aplicación debe utilizar algún framework de mapas tal como OpenLayers, Leaflet o Arcgis API.
-	  Debe tener una restricción desde el BACKEND para que no cualquiera pueda visualizar el contenido.(1)
+	  Debe tener una restricción desde el BACKEND para que no cualquiera pueda visualizar el contenido. (1)
 	- Utilizar algún framework o librería de JavaScript para crear aplicaciones robustas: ReactJs o Angular.
 	
 	
