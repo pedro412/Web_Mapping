@@ -263,7 +263,7 @@ Este es responsable de todas las tecnologías del lado del servidor tal como bas
 Aquí el diseño no es prioridad, lo que es prioridad es la seguridad, siempre la deben tener muy presente.
 También deben escribir código de manera astuta para optimizar tiempos en respuesta, por ejemplo ellos crean los web services, pero los deben de hacer tal forma que te puedan entregar un registro de millones de una base de datos en tiempo record o al menos a eso le apuntan.
 
-La herramientas con las que trabajan dependerán del ambiente en el cual se les pida por ejemplo, aquí en la empresa se usa ambiente Windows por lo cual tienen que trabajar con las herramientas adecuadas: SQL server para base de datos, algún framework como .NET que usa el lenguaje C#.
+Las herramientas con las que trabajan dependerán del ambiente en el cual se les pida por ejemplo, aquí en la empresa se usa ambiente Windows por lo cual tienen que trabajar con las herramientas adecuadas: SQL server para base de datos, algún framework como .NET que usa el lenguaje C#.
 
 También deben ser capaces de configurar cualquier herramienta que se requiera.
 
