@@ -138,7 +138,9 @@ div {
 **JAVASCRIPT**
 
 Por última vez, no confundir con Java ya que son dos lenguajes de programación distintos, la similitud del nombre fue gracias a los de marketing ya que cuando se lanzó JavaScript, Java era el lenguaje más popular del momento.
+
 JavaScript si es un lenguaje de programación, con el cual, podemos declarar variables, crear condiciones y ciclos, declarar funciones que ejecuten determinada tarea.
+
 JavaScript es un lenguaje que se ejecuta en el cliente ósea en tu navegador, con JavaScript podemos manipular casi cualquier cosa en una página.
 
 Ejemplo, se requiere hacer que cuando el usuario de clic sobre la página el contenido de la etiqueta que definimos anteriormente sea 'Hola';
