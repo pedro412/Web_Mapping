@@ -290,6 +290,14 @@ https://www.w3schools.com/Js/js_json_intro.asp
 
 
 
+**Rest API'S**
+
+![Apis!](http://media2.govtech.com/images/940*603/api_infographic_smartfile_crop.jpg)
+
+[Más...](http://www.govtech.com/applications/Whats-an-API-and-Why-Do-You-Need-One.html)
+
+
+
 ### ¿Y el XAMPP y el Tomcat? :'(
 
 El XAMPP solo era para montar un entorno de desarrollo Apache en su computadora sin la necesidad de un servidor.
