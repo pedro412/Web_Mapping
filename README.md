@@ -70,11 +70,16 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos números:
     pasa la magia y esto nos regresa una respuesta en formato XML o JSON, generalmente retornan un JSON.
     
 ```javascript
-    respuesta:[{
+// Ejemplo de una respuesta en formato JSON, status 200 quiere decir que la petición fue exitosa
+
+{
+    status: 200,
+    respuesta: [{
 	numero1: 5,
 	numero2: 6,
-	suma: 11 //<-- este es el resultado de la función que se ejecutó en el servidor.
+	suma: 11 // <-- este es el resultado de la función que se ejecutó en el servidor.
     }]
+}
 ```
 
  - **http** es el protocolo por cual se realizara la consulta.
@@ -255,7 +260,7 @@ Dominar algún software como QGIS o ArcMap?? y lo más importante para mí, hace
 
 ### COSITAS
 
-Ejemplo del código HTML de la pagina más simple posible:
+**Ejemplo del código HTML de la pagina más simple posible:**
 
 
 ```html
@@ -275,6 +280,13 @@ Ejemplo del código HTML de la pagina más simple posible:
 Para ver esto es un navegador es tan fácil como, copiar el código, abrir Bloc de notas, pegarlo en un documento en blanco, guardarlo y poner un nombre como : ejemplo.html
 
 Al abrir este nuevo archivo con doble clic, se abrirá en tu navegador web por defecto.
+
+
+**JSON**
+
+JavaScript Object Notation por sus siglas en inglés, es un tipo de formato para el intercambio de datos entre cliente-servidor.
+
+https://www.w3schools.com/Js/js_json_intro.asp
 
 
 
