@@ -84,7 +84,7 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos números:
 
  - **http** es el protocolo por cual se realizara la consulta.
 
- - **www.miDominio.com** es el ip o dominio(DNS) que se utiliza.
+ - **www.miDominio.com** es el IP o dominio(DNS) que se utiliza.
 
  - **/sumarNumeros** es la función que se ejecutara y a esta se le pasan los parámetros después del signo ? numero1=5&numero2=6
  
@@ -95,7 +95,7 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos números:
  
  
 ### CLIENTE
-Se entiende por cliente cualquier dispositivo capaz de renderizar la vista al usuario, ya sea un dispositivo móvil, una laptop o desktop, un navegador web, es muy común que navegador web se confunda con motor de búsqueda, navegador web es la aplicación como CHROME o SAFARI, motor de búsqueda es Google o Bing. En el caso de web mapping el cliente será una página web, que consiste en 3 cosas fundamentales: HTML, CSS y JavaScript(no es lo mismo que Java).
+Se entiende por cliente cualquier dispositivo capaz de renderizar la vista al usuario, ya sea un dispositivo móvil, una laptop o desktop, un navegador web, es muy común que navegador web se confunda con motor de búsqueda, navegador web es la aplicación como Chrome o Safari, motor de búsqueda es Google o Bing. En el caso de web mapping el cliente será una página web, que consiste en 3 cosas fundamentales: HTML, CSS y JavaScript(no es lo mismo que Java).
 
 
 
