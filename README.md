@@ -42,22 +42,28 @@ debe ser mediante uso de línea de comando, cuando no se tiene un conocimiento a
 
 
 ### BASE DE DATOS
+
 Aquí no hay mucho tema, todas las interacciones no se hacen directamente, siempre se hacen a través de QGIS o el servidor de mapas.
 
 
 
 ### SERVIDOR DE MAPAS
+
 El servidor de mapas es una aplicación que se encarga de hacer muchas cosas por nosotros, si este no existiera se tendría que
 hacer una aplicación que tuviera todas la funciones que llegásemos a necesitar, lo cual es mucho desarrollo y tiempo.
+
 Algunas de esas cosas que este servidor puede hacer por nosotros es: publicar un servicio web de las capas, listo para 
 ser consumido desde cualquier cliente que acepte HTTP, ya sea una aplicación de teléfono o una página web.
+
 También si se quisiera optar por otro tipo de desarrollo digamos usar Python, este servidor nos puede entregar un JSON que 
 prácticamente puede ser utilizado y manipulado desde cualquier lenguaje de programación.
 
 
 
 ### WEB MAP SERVICES
-Para entender esto se debe primero entender que son los servicios web, los servicios web son funciones creadas en algún lenguaje de programación que tenga capacidades de interactuar con una base de datos para hacer consultas a la misma, manipular archivos, en otras palabras en un lenguaje del lado del servidor, los lenguajes más comunes para web: PHP, NodeJS, Python, C#(.NET) y Java(no confundir Java con JavaScript ya que son dos cosas diferentes).
+
+Para entender esto se debe primero entender que son los servicios web, los servicios web son funciones creadas en algún lenguaje de programación que tenga capacidades de interactuar con una base de datos, manipular archivos, en otras palabras en un lenguaje del lado del servidor, los lenguajes más comunes para web: PHP, NodeJS, Python, C#(.NET) y Java(no confundir Java con JavaScript ya que son dos cosas diferentes).
+
 Estas funciones realizan tareas específicas, tal como sumar dos números hasta devolver todos los registros de una base de datos.
 Se les llama servicios web porque en teoría todo lo que tienes que hacer para invocarlos es usar una URL que se asignó a dicha función o servicio.
 
@@ -95,7 +101,10 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos números:
  
  
 ### CLIENTE
-Se entiende por cliente cualquier dispositivo capaz de renderizar la vista al usuario, ya sea un dispositivo móvil, una laptop o desktop, un navegador web, es muy común que navegador web se confunda con motor de búsqueda, navegador web es la aplicación como Chrome o Safari, motor de búsqueda es Google o Bing. En el caso de web mapping el cliente será una página web, que consiste en 3 cosas fundamentales: HTML, CSS y JavaScript(no es lo mismo que Java).
+
+Se entiende por cliente cualquier dispositivo capaz de renderizar la vista al usuario, ya sea un dispositivo móvil, una laptop o desktop, un navegador web.
+
+Es muy común que navegador web se confunda con motor de búsqueda, navegador web es la aplicación como Chrome o Safari, motor de búsqueda es Google o Bing. En el caso de web mapping el cliente será una página web, que consiste en 3 cosas fundamentales: HTML, CSS y JavaScript(no es lo mismo que Java).
 
 
 
@@ -109,7 +118,9 @@ Ejemplo:
 <div>aquí va el contenido</div>
 ```
 
-Nótese el uso de etiquetas, **div** es el identificador de la etiqueta que definimos, hay varios tipo de etiquetas con sus respectivos nombres *div* es utilizado con frecuencia, las etiquetas siempre abren y se tienen que cerrar, HTML es muy parecido a XML solo que XML es más difícil de leer para los humanos, ya que XML fue creado para comunicación entre software, y HTML fue creado para que los humanos lo puedan leer y entender muy fácil.
+Nótese el uso de etiquetas, **div** es el identificador de la etiqueta que definimos, hay varios tipo de etiquetas con sus respectivos nombres *div* es utilizado con frecuencia, las etiquetas siempre abren y se tienen que cerrar.
+
+HTML es muy parecido a XML solo que XML es más difícil de leer para los humanos, ya que XML fue creado para comunicación entre software, y HTML fue creado para que los humanos lo puedan leer y entender muy fácil.
 
 
 
@@ -213,6 +224,7 @@ Ahora se debe tener una idea más clara de lo que es una página web, HTML son l
 
 
 ### FRAMEWORKS Y LIBRERÍAS DE JAVASCRIPT
+
 Los frameworks  y/o librerías de JavaScript son funciones(echas con JavaScript) que adentro de ellas vienen muchas funciones pequeñas que sirven para un propósito, en el caso de web mapping, las librerías como Leaflet y OpenLayers son para la manipulación y renderización de mapas y capas en una página web sin tener que partir de cero.
 
 
