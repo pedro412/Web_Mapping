@@ -213,7 +213,14 @@ Ahora se debe tener una idea más clara de lo que es una página web, HTML son l
 
 
 ### FRAMEWORKS Y LIBRERÍAS DE JAVASCRIPT
-Los frameworks  y/o librerías de JavaScript son funciones(echas con JavaScript) que adentro de ellas vienen muchas funciones pequeñas que sirven para un propósito, en el caso de web mapping, los frameworks tales como Leaflet y OpenLayers son para la manipulación y renderización de mapas y capas en una página web sin tener que partir de cero.
+Los frameworks  y/o librerías de JavaScript son funciones(echas con JavaScript) que adentro de ellas vienen muchas funciones pequeñas que sirven para un propósito, en el caso de web mapping, las librerías como Leaflet y OpenLayers son para la manipulación y renderización de mapas y capas en una página web sin tener que partir de cero.
+
+
+Framework: es un marco de trabajo, que nos provee de funcionalidades, a diferencia de una librería, cuando se usa un framework todo el trabajo debe obedecer a ciertas reglas establecidas o estándares, esto para mantener un orden y que otras personas puedan entender.
+
+
+Librería: las librerías son funciones que nos ahorran trabajo, por ejemplo OpenLayers, con solo una función podemos renderizar un mapa con funciones como zoom y arrastrar a diferentes localizaciones sin la necesidad de hacer todo por cuenta propia. A diferencia de un framework, las librerías, son más flexibles a la hora de estructurar nuestro trabajo, ya que no se debe seguir un estándar especifico.
+
 
 Ejemplo: https://unpkg.com/leaflet@1.3.4/dist/leaflet.js
 Todo ese código es la ibrería de Leaflet ahí vienen todas las funciones que podemos utilizar.
