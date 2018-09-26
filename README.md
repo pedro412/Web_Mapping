@@ -101,7 +101,9 @@ Se entiende por cliente cualquier dispositivo capaz de renderizar la vista al us
 
 **HTML**
 
-NO es un lenguaje de programación, es un lenguaje de marcado ósea que para definir algo hay que usar etiquetas ejemplo:
+NO es un lenguaje de programación, es un lenguaje de marcado ósea que para definir algo hay que usar etiquetas.
+
+Ejemplo:
 
 ```html
 <div>aquí va el contenido</div>
