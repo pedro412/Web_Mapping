@@ -104,7 +104,9 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos números:
 
 Se entiende por cliente cualquier dispositivo capaz de renderizar la vista al usuario, ya sea un dispositivo móvil, una laptop o desktop, un navegador web.
 
-Es muy común que navegador web se confunda con motor de búsqueda, navegador web es la aplicación como Chrome o Safari, motor de búsqueda es Google o Bing. En el caso de web mapping el cliente será una página web, que consiste en 3 cosas fundamentales: HTML, CSS y JavaScript(no es lo mismo que Java).
+Es muy común que navegador web se confunda con motor de búsqueda, navegador web es la aplicación como Chrome o Safari, motor de búsqueda es Google o Bing. 
+
+En el caso de web mapping el cliente será una página web, que consiste en 3 cosas fundamentales: HTML, CSS y JavaScript(no es lo mismo que Java).
 
 
 
