@@ -92,7 +92,7 @@ Por ejemplo: se requiere consumir un servicio web para sumar dos números:
 
  - **www.miDominio.com** es el IP o dominio(DNS) que se utiliza.
 
- - **/sumarNumeros** es la función que se ejecutara y a esta se le pasan los parámetros después del signo ? numero1=5&numero2=6
+ - **/sumarNumeros** es la función que se ejecutara y a esta se le pasan los argumentos después del signo ? numero1=5&numero2=6
  
  A muy grandes rasgos eso es un servicios web.
  
@@ -230,14 +230,15 @@ Ahora se debe tener una idea más clara de lo que es una página web, HTML son l
 Los frameworks  y/o librerías de JavaScript son funciones(echas con JavaScript) que adentro de ellas vienen muchas funciones pequeñas que sirven para un propósito, en el caso de web mapping, las librerías como Leaflet y OpenLayers son para la manipulación y renderización de mapas y capas en una página web sin tener que partir de cero.
 
 
-Framework: es un marco de trabajo, que nos provee de funcionalidades, a diferencia de una librería, cuando se usa un framework todo el trabajo debe obedecer a ciertas reglas establecidas o estándares, esto para mantener un orden y que otras personas puedan entender.
+Framework: es un marco de trabajo, que nos provee de funcionalidades, a diferencia de una librería, cuando se usa un framework todo el trabajo debe obedecer a ciertas reglas establecidas o estándares, esto para mantener un orden y que otros programadores puedan entender.
 
 
-Librería: las librerías son funciones que nos ahorran trabajo, por ejemplo OpenLayers, con solo una función podemos renderizar un mapa con funciones como zoom y arrastrar a diferentes localizaciones sin la necesidad de hacer todo por cuenta propia. A diferencia de un framework, las librerías, son más flexibles a la hora de estructurar nuestro trabajo, ya que no se debe seguir un estándar especifico.
+Librería: las librerías son funciones que nos ahorran trabajo, por ejemplo OpenLayers, con solo una función podemos renderizar un mapa con utilidades como zoom y arrastrar a diferentes localizaciones sin la necesidad de hacer todo por cuenta propia. A diferencia de un framework, las librerías, son más flexibles a la hora de estructurar nuestro trabajo, ya que no se debe seguir un estándar especifico.
 
 
 Ejemplo: https://unpkg.com/leaflet@1.3.4/dist/leaflet.js
-Todo ese código es la ibrería de Leaflet ahí vienen todas las funciones que podemos utilizar.
+
+Todo ese código es la ibrería de Leaflet ahí vienen todas las funciones que podemos utilizar que se usan a través de una API.
 
 
 
