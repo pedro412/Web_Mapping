@@ -1,4 +1,4 @@
-## ARQUITECTURA DE PROYECTO WEB MAPPING
+## PROYECTO WEB MAPPING
 
 Estos son los requerimientos mínimos necesarios para montar una infraestructura de web mapping.
 	
