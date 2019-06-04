@@ -7,7 +7,7 @@ Se dividirá en dos bloques FRONTEND y BACKEND
 
 BACKEND(servidor)
 
-	- Servidor web: Apache o IIS.
+	- Servidor web: Apache, NGINX o IIS.
 	- Instalación de base de datos POSTGRESQL con extensión POSTGIS.
 	- Servidor de mapas: GeoServer.
 	- Restful API'S AKA Web Services para la autenticación y autorización(opcional). (1)
