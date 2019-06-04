@@ -29,15 +29,13 @@ FRONTEND(cliente)
 
 ### SERVIDOR
 
-En la empresa se cuenta con servidores IIS de Microsoft los cuales son muy ventajosos al momento de montar e instalar
-las aplicaciones, o base de datos, ya que todo se hace mediante interfaz gráfica muy parecido a Windows.
+En la empresa se cuenta con servidores Windows de Microsoft con IIS, los cuales son muy ventajosos al momento de montar e instalar
+las aplicaciones, o base de datos, ya que todo se hace mediante interfaz gráfica.
 
 
 Otra opción sería rentar algún VPS o Virtual Private Server, que generalmente usan servidores Apache,
 estos vienen con la desventaja de que hay que configurar todo manualmente, a diferencia del IIS,
-estos servidores generalmente vienen montados en un sistema operativo Linux, y todo lo que se requiera instalar
-debe ser mediante uso de línea de comando, cuando no se tiene un conocimiento avanzado, esto puede demorar mucho tiempo.
-
+estos servidores generalmente vienen montados en un sistema operativo basado en Linux tal como Ubuntu/Debian, y todo lo que se requiera instalar debe ser mediante uso de línea de comando, cuando no se tiene un conocimiento avanzado, esto puede demorar mucho tiempo.
 
 
 
